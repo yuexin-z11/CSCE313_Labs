@@ -1,0 +1,13 @@
+{
+    "files.autoSave": "afterDelay",
+    "cmake.configureOnOpen": true,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "remote.SSH.remotePlatform": {
+        "10.50.60.21": "linux",
+        "10.16.11.38": "linux",
+        "34.27.172.147": "linux"
+    }
+}

@@ -1,0 +1,365 @@
+2024-08-27 15:44:16.828 [info] Extension host with pid 74405 started
+2024-08-27 15:44:17.041 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-08-27 15:44:17.062 [info] Lock '/home/teresayuexinzhang/.vscode-server/data/User/workspaceStorage/39f0edc141b9fd3775781a9b3d359970/vscode.lock': Lock acquired.
+2024-08-27 15:44:17.151 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-27 15:44:17.283 [info] Eager extensions activated
+2024-08-27 15:44:17.284 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-27 15:44:17.284 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-27 15:44:18.017 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-08-27 15:44:19.507 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-08-27 15:44:19.508 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-08-27 15:44:19.508 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-08-27 15:44:19.508 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-27 15:51:19.080 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:51:19.692 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:51:20.574 [error] Error: No such branch: master.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:51:20.712 [error] Error: No such branch: master.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:51:22.760 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:51:23.774 [error] Error: No such branch: master.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:51:27.822 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:51:28.831 [error] Error: No such branch: master.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:51:32.895 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:51:33.905 [error] Error: No such branch: master.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:51:39.791 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:51:40.803 [error] Error: No such branch: master.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:51:44.861 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:51:45.872 [error] Error: No such branch: master.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:52:26.772 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:52:27.783 [error] Error: No such branch: master.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:52:31.848 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:52:32.865 [error] Error: No such branch: master.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:52:39.347 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:52:40.276 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:52:40.520 [error] Error: No such branch: master.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:52:41.283 [error] Error: No such branch: main.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:52:51.340 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:52:52.349 [error] Error: No such branch: main.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:52:52.431 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-08-27 15:52:56.406 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:52:57.410 [error] Error: No such branch: main.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:53:01.467 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:53:02.476 [error] Error: No such branch: main.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:53:06.871 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:53:07.881 [error] Error: No such branch: main.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:53:11.938 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:53:12.947 [error] Error: No such branch: main.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:53:16.998 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:53:18.003 [error] Error: No such branch: main.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:53:22.054 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:53:23.062 [error] Error: No such branch: main.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:53:27.113 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:53:28.122 [error] Error: No such branch: main.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:53:32.180 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:53:33.187 [error] Error: No such branch: main.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:53:37.254 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:53:38.275 [error] Error: No such branch: main.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:53:42.321 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:53:43.326 [error] Error: No such branch: main.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:53:47.385 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:53:48.394 [error] Error: No such branch: main.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:53:52.454 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:53:53.460 [error] Error: No such branch: main.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:53:57.514 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:53:58.532 [error] Error: No such branch: main.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:54:03.931 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:54:04.941 [error] Error: No such branch: main.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:54:08.990 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:54:09.998 [error] Error: No such branch: main.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:54:14.064 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:54:15.074 [error] Error: No such branch: main.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:54:19.127 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:54:20.137 [error] Error: No such branch: main.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:54:24.189 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:54:25.194 [error] Error: No such branch: main.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:54:29.252 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:54:30.261 [error] Error: No such branch: main.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:54:34.950 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:54:35.957 [error] Error: No such branch: main.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:54:40.012 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:54:41.017 [error] Error: No such branch: main.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:54:45.956 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:54:46.961 [error] Error: No such branch: main.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:54:51.242 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:54:52.257 [error] Error: No such branch: main.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:54:56.315 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:54:57.322 [error] Error: No such branch: main.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:55:02.959 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:55:03.963 [error] Error: No such branch: main.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:55:08.021 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:55:09.031 [error] Error: No such branch: main.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:55:13.117 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
+2024-08-27 15:55:14.125 [error] Error: No such branch: main.
+	at N.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/main.js:2:941421)
+2024-08-27 15:55:18.248 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1379
