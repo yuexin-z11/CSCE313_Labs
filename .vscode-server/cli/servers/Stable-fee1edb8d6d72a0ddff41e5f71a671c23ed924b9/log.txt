@@ -5,21 +5,19 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to /tmp/code-1330b7d8-05eb-48b3-afa8-25fd7c4d5152
-Extension host agent listening on /tmp/code-1330b7d8-05eb-48b3-afa8-25fd7c4d5152
+Server bound to /tmp/code-e222675f-b8f1-417c-9fff-5e276e049c94
+Extension host agent listening on /tmp/code-e222675f-b8f1-417c-9fff-5e276e049c94
 
-[15:44:03] 
-
-
+[19:38:40] 
 
 
-[15:44:03] Extension host agent started.
-[15:44:03] Started initializing default profile extensions in extensions installation folder. file:///home/teresayuexinzhang/.vscode-server/extensions
-[15:44:03] Completed initializing default profile extensions in extensions installation folder. file:///home/teresayuexinzhang/.vscode-server/extensions
-[15:44:03] [<unknown>][c0a8dfd0][ExtensionHostConnection] New connection established.
-[15:44:03] [<unknown>][b5db1a8b][ManagementConnection] New connection established.
-[15:44:03] [<unknown>][c0a8dfd0][ExtensionHostConnection] <74242> Launched Extension Host Process.
-[15:44:11] [<unknown>][b5db1a8b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[15:44:15] [<unknown>][1b111feb][ManagementConnection] New connection established.
-[15:44:15] [<unknown>][503f1068][ExtensionHostConnection] New connection established.
-[15:44:15] [<unknown>][503f1068][ExtensionHostConnection] <74405> Launched Extension Host Process.
+
+
+[19:38:40] Extension host agent started.
+[19:38:40] [<unknown>][d7544f8c][ExtensionHostConnection] New connection established.
+[19:38:40] [<unknown>][f89da019][ManagementConnection] New connection established.
+[19:38:40] [<unknown>][d7544f8c][ExtensionHostConnection] <76811> Launched Extension Host Process.
+[19:39:02] [<unknown>][f89da019][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[19:39:04] [<unknown>][a2551414][ManagementConnection] New connection established.
+[19:39:04] [<unknown>][aa6c9733][ExtensionHostConnection] New connection established.
+[19:39:04] [<unknown>][aa6c9733][ExtensionHostConnection] <77079> Launched Extension Host Process.

@@ -18,3 +18,8 @@
     at process.<anonymous> (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/out/vs/server/node/server.main.js:190:6369)
     at process.emit (node:events:531:35)
 2024-08-27 15:49:15.912 [info] [<unknown>][c0a8dfd0][ExtensionHostConnection] <74242> Extension Host Process exited with code: 0, signal: null.
+2024-08-27 16:06:37.525 [info] [<unknown>][1b111feb][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-08-27 19:06:18.424 [info] [<unknown>][503f1068][ExtensionHostConnection] <74405> Extension Host Process exited with code: 0, signal: null.
+2024-08-27 19:06:18.427 [info] Last EH closed, waiting before shutting down
+2024-08-27 19:06:44.432 [info] [<unknown>][1b111feb][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+2024-08-27 19:11:18.429 [info] Last EH closed, shutting down
