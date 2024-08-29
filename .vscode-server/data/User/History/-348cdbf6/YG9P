@@ -1,0 +1,21 @@
+finish
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Changes to be committed:
+#	modified:   .vscode-server/.cli.fee1edb8d6d72a0ddff41e5f71a671c23ed924b9.log
+#	new file:   .vscode-server/data/User/workspaceStorage/39f0edc141b9fd3775781a9b3d359970-1/vscode.lock
+#	modified:   .vscode-server/data/logs/20240829T143816/exthost2/vscode.git/Git.log
+#	new file:   .vscode-server/data/logs/20240829T143816/exthost3/remoteexthost.log
+#	new file:   .vscode-server/data/logs/20240829T143816/exthost3/vscode.git/Git.log
+#	new file:   .vscode-server/data/logs/20240829T143816/exthost3/vscode.github/GitHub.log
+#	new file:   .vscode-server/data/logs/20240829T143816/exthost4/remoteexthost.log
+#	new file:   .vscode-server/data/logs/20240829T143816/exthost4/vscode.git/Git.log
+#	new file:   .vscode-server/data/logs/20240829T143816/exthost4/vscode.github/GitHub.log
+#	modified:   .vscode-server/data/logs/20240829T143816/ptyhost.log
+#	modified:   .vscode-server/data/logs/20240829T143816/remoteagent.log
+#
+# Changes not staged for commit:
+#	modified:   .vscode-server/data/logs/20240829T143816/exthost4/vscode.git/Git.log
+#
