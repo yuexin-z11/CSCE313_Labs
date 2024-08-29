@@ -1,0 +1,15 @@
+finished lab1
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Changes to be committed:
+#	modified:   .vscode-server/data/User/History/-348cdbf6/entries.json
+#	new file:   .vscode-server/data/User/History/-348cdbf6/yD0W
+#	modified:   .vscode-server/data/logs/20240829T143816/exthost4/remoteexthost.log
+#	modified:   .vscode-server/data/logs/20240829T143816/exthost4/vscode.git/Git.log
+#	new file:   .vscode-server/data/logs/20240829T143816/exthost4/vscode.json-language-features/JSON Language Server.log
+#
+# Changes not staged for commit:
+#	modified:   .vscode-server/data/logs/20240829T143816/exthost4/vscode.git/Git.log
+#

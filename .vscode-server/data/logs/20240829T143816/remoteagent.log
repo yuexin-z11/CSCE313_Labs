@@ -39,3 +39,5 @@
 2024-08-29 15:54:26.924 [info] [<unknown>][266e7d70][ManagementConnection] New connection established.
 2024-08-29 15:54:26.953 [info] [<unknown>][c4c58838][ExtensionHostConnection] New connection established.
 2024-08-29 15:54:26.958 [info] [<unknown>][c4c58838][ExtensionHostConnection] <107252> Launched Extension Host Process.
+2024-08-29 15:59:13.277 [info] [<unknown>][637f59d1][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2024-08-29 15:59:13.370 [info] [<unknown>][160dcd0e][ExtensionHostConnection] <95804> Extension Host Process exited with code: 0, signal: null.
