@@ -1,0 +1,38 @@
+2024-08-29 15:54:29.310 [info] [main] Log level: Info
+2024-08-29 15:54:29.310 [info] [main] Validating found git in: "git"
+2024-08-29 15:54:29.310 [info] [main] Using git "2.34.1" from "git"
+2024-08-29 15:54:29.310 [info] [Model][doInitialScan] Initial repository scan started
+2024-08-29 15:54:29.310 [info] > git rev-parse --show-toplevel [13ms]
+2024-08-29 15:54:29.312 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-08-29 15:54:29.330 [info] [Model][openRepository] Opened repository: /home/teresayuexinzhang
+2024-08-29 15:54:29.401 [info] > git rev-parse --show-toplevel [58ms]
+2024-08-29 15:54:29.407 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-08-29 15:54:29.409 [info] > git config --get commit.template [70ms]
+2024-08-29 15:54:29.427 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-08-29 15:54:29.497 [info] > git status -z -uall [62ms]
+2024-08-29 15:54:29.543 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [25ms]
+2024-08-29 15:54:29.555 [info] > git config --get commit.template [14ms]
+2024-08-29 15:54:29.565 [info] > git config --local branch.main.vscode-merge-base [11ms]
+2024-08-29 15:54:29.565 [warning] [Git][config] git config failed: Failed to execute git
+2024-08-29 15:54:29.576 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-08-29 15:54:29.586 [info] > git reflog main --grep-reflog=branch: Created from *. [12ms]
+2024-08-29 15:54:29.708 [info] > git status -z -uall [123ms]
+2024-08-29 15:54:29.709 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [110ms]
+2024-08-29 15:54:29.710 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-08-29 15:54:29.731 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-08-29 15:54:29.742 [info] > git config --local branch.main.vscode-merge-base [4ms]
+2024-08-29 15:54:29.742 [warning] [Git][config] git config failed: Failed to execute git
+2024-08-29 15:54:29.754 [info] > git reflog main --grep-reflog=branch: Created from *. [6ms]
+2024-08-29 15:54:29.949 [info] > git check-ignore -v -z --stdin [15ms]
+2024-08-29 15:54:29.953 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [191ms]
+2024-08-29 15:54:29.953 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-08-29 15:54:30.092 [info] > git show --textconv :Lab1/buggy.cpp [21ms]
+2024-08-29 15:54:30.100 [info] > git ls-files --stage -- /home/teresayuexinzhang/Lab1/buggy.cpp [14ms]
+2024-08-29 15:54:30.111 [info] > git cat-file -s 9e3767809534c820542f055d21c743bc31af0c01 [5ms]
+2024-08-29 15:57:33.917 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n32 --max-parents=0 --topo-order --decorate=full HEAD [3ms]
+2024-08-29 15:57:33.987 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z d6ca082c6ee8f824d0bf9b617a258e6b503c9365 [24ms]
+2024-08-29 15:57:34.013 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent d6ca082c6ee8f824d0bf9b617a258e6b503c9365.. --topo-order --decorate=full refs/heads/main [45ms]
+2024-08-29 15:57:34.202 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n32 --max-parents=0 --topo-order --decorate=full HEAD [29ms]
+2024-08-29 15:57:34.278 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z d6ca082c6ee8f824d0bf9b617a258e6b503c9365 [22ms]
+2024-08-29 15:57:34.305 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent d6ca082c6ee8f824d0bf9b617a258e6b503c9365.. --topo-order --decorate=full refs/heads/main [44ms]
+2024-08-29 15:57:34.686 [info] > git check-ignore -v -z --stdin [4ms]
