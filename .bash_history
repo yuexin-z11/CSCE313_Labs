@@ -159,3 +159,11 @@ mv le2-tests.sh Lab2
 mv shell.cpp Lab2
 ls
 rm LE2.tgz
+git status
+git add --all
+git commit -m "Lab2"
+git push
+make
+tar -xvzf LE2_new.zip
+unzip LE2_new.zip
+ls
