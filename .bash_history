@@ -38,3 +38,124 @@ ls
 rm buggy
 rm out.txt
 ./tests.sh
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+./test.sh
+ls
+rm buggy
+./tests.sh
+make
+./tests.sh
+make
+ls 
+rm buggy
+rm out.txt
+./tests.sh
+rm buggy
+rm out.txt
+./tests.sh
+rm out.txt
+./tests.sh
+rm out.txt
+./tests.sh
+rm out.txt
+./tests.sh
+rm out.txt
+./tests.sh
+rm buggy
+rm out.txt
+./tests.sh
+rm buggy
+rm out.txt
+./tests.sh
+rm out.txt
+rm buggy
+./tests.sh
+rm buggy
+rm out.txt
+./tests.sh
+make
+make
+rm out.txt
+rm buggy
+./tests.sh
+make
+make
+make
+rm buggy
+rm out.txt
+./tests.sh
+rm out.txt
+rm buggy
+rm out.txt
+./tests.sh
+make clean
+make
+./buggy
+./buggy
+rm out.txt
+rm buggy
+./tests.sh
+./tests.sh
+rm buggy
+rm out.txt
+./tests.sh
+mke
+make
+make
+make
+make
+./buggy
+clean
+make clean
+make
+./buggy
+./buggy
+./buggy
+make
+./buggy
+make clean
+make
+make
+./test.sh
+rm buggy
+rm out.txt
+./test.sh
+./tests.sh
+make
+make
+./buggy
+make
+./buggy
+chmod u+x tests.sh
+./tests.sh
+git add --all
+git commit -m "finish"
+git push 
+git push main origin
+git push origin main
+git push main origin
+ls
+mkdir Lab2
+tar LE2.tgz
+tar -xvzf LE2.tgz
+ls
+mv Makefile Lab2
+mv le2-tests.sh Lab2
+mv shell.cpp Lab2
+ls
+rm LE2.tgz

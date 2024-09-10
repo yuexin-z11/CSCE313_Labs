@@ -6,3 +6,5 @@
 2024-08-29 15:54:15.335 [info] Eager extensions activated
 2024-08-29 15:54:15.335 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
 2024-08-29 15:54:15.336 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-29 15:59:27.073 [info] Extension host terminating: renderer disconnected for too long (2)
+2024-08-29 15:59:27.106 [info] Extension host with pid 107111 exiting with code 0

@@ -1,0 +1,25 @@
+2024-09-10 14:36:21.382 [info] 
+
+
+
+
+2024-09-10 14:36:21.403 [info] Extension host agent started.
+2024-09-10 14:36:21.533 [info] [<unknown>][1d0b8be1][ExtensionHostConnection] New connection established.
+2024-09-10 14:36:21.560 [info] [<unknown>][eb16c4c4][ManagementConnection] New connection established.
+2024-09-10 14:36:21.646 [info] [<unknown>][1d0b8be1][ExtensionHostConnection] <214071> Launched Extension Host Process.
+2024-09-10 14:36:45.593 [info] [<unknown>][eb16c4c4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-10 14:36:45.633 [info] [<unknown>][1d0b8be1][ExtensionHostConnection] <214071> Extension Host Process exited with code: 0, signal: null.
+2024-09-10 14:36:45.634 [info] Cancelling previous shutdown timeout
+2024-09-10 14:36:45.634 [info] Last EH closed, waiting before shutting down
+2024-09-10 14:36:47.943 [info] [<unknown>][d4dc4d65][ManagementConnection] New connection established.
+2024-09-10 14:36:47.971 [info] [<unknown>][5f2ea8ef][ExtensionHostConnection] New connection established.
+2024-09-10 14:36:47.977 [info] [<unknown>][5f2ea8ef][ExtensionHostConnection] <214229> Launched Extension Host Process.
+2024-09-10 14:41:45.637 [info] New EH opened, aborting shutdown
+2024-09-10 14:41:45.640 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/server/node/server.main.js:198:6390)
+    at process.emit (node:events:531:35)
+2024-09-10 15:59:45.551 [info] [<unknown>][d4dc4d65][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-09-10 18:09:18.503 [info] [<unknown>][d4dc4d65][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-09-10 18:09:18.505 [info] [<unknown>][6f5575c3][ManagementConnection] New connection established.
+2024-09-10 18:09:18.532 [info] [<unknown>][8f501f0f][ExtensionHostConnection] New connection established.
+2024-09-10 18:09:18.541 [info] [<unknown>][8f501f0f][ExtensionHostConnection] <217911> Launched Extension Host Process.

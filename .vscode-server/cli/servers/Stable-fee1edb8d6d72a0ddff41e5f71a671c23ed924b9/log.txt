@@ -5,19 +5,19 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to /tmp/code-7e63d4d2-7692-4cd4-b7fd-b57ac43496fb
-Extension host agent listening on /tmp/code-7e63d4d2-7692-4cd4-b7fd-b57ac43496fb
+Server bound to /tmp/code-4a5f7ad5-e87b-4274-8a65-5fe6c2a171ee
+Extension host agent listening on /tmp/code-4a5f7ad5-e87b-4274-8a65-5fe6c2a171ee
 
-[14:38:16] 
-
-
+[14:54:57] 
 
 
-[14:38:17] Extension host agent started.
-[14:38:17] [<unknown>][6fedba18][ManagementConnection] New connection established.
-[14:38:17] [<unknown>][65999cb3][ExtensionHostConnection] New connection established.
-[14:38:17] [<unknown>][65999cb3][ExtensionHostConnection] <95577> Launched Extension Host Process.
-[14:38:37] [<unknown>][6fedba18][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[14:38:39] [<unknown>][637f59d1][ManagementConnection] New connection established.
-[14:38:39] [<unknown>][160dcd0e][ExtensionHostConnection] New connection established.
-[14:38:39] [<unknown>][160dcd0e][ExtensionHostConnection] <95804> Launched Extension Host Process.
+
+
+[14:54:57] Extension host agent started.
+[14:54:57] [<unknown>][e75d8340][ManagementConnection] New connection established.
+[14:54:57] [<unknown>][98474902][ExtensionHostConnection] New connection established.
+[14:54:57] [<unknown>][98474902][ExtensionHostConnection] <169177> Launched Extension Host Process.
+[14:55:08] [<unknown>][e75d8340][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[14:55:11] [<unknown>][76e83337][ManagementConnection] New connection established.
+[14:55:11] [<unknown>][fd23d6bf][ExtensionHostConnection] New connection established.
+[14:55:11] [<unknown>][fd23d6bf][ExtensionHostConnection] <169342> Launched Extension Host Process.
