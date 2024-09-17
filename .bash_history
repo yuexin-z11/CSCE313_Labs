@@ -167,3 +167,70 @@ make
 tar -xvzf LE2_new.zip
 unzip LE2_new.zip
 ls
+cd LE2_new
+ls
+make
+make
+make
+./le2-tests.sh
+chmod u+x le2-tests.sh
+./le2-tests.sh
+make
+./le2-tests.sh
+rm output.txt
+rm shell
+rm test_output.txt
+make
+./le2-tests.sh
+rm output.txt
+rm shell
+make
+./le2-tests.sh
+make
+make
+./le2-tests.sh
+rm text_output.txt
+rm shell
+rm test_output.txt 
+rm output.txt 
+make
+./le2-tests.sh
+make
+./le2-tests.sh
+make
+./shell
+./shell
+make
+./shell
+./shell
+./shell
+./shell
+./shell
+make
+make
+./shell
+./shell
+make
+make
+./shell
+make
+./shell
+./shell
+make
+./shell
+make
+./shell
+git add --all
+git commit -m "Lab2 finished"
+git push
+vim text
+cat text
+cat text | grep -E "grapes"
+vim text
+vim text
+cat text
+vim text
+unzip CSCE313_PA1.zip
+ls
+rm CSCE_313_PA1.zip
+rm CSCE313_PA1.zip

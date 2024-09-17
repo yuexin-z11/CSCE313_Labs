@@ -1,0 +1,28 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-858a5be1-1a6c-4f84-a02b-6f3e5c0f94fa
+Extension host agent listening on /tmp/code-858a5be1-1a6c-4f84-a02b-6f3e5c0f94fa
+
+[14:46:49] 
+
+
+
+
+[14:46:49] Extension host agent started.
+[14:46:49] [<unknown>][b251f5d0][ExtensionHostConnection] New connection established.
+[14:46:49] [<unknown>][b50a09a6][ManagementConnection] New connection established.
+[14:46:49] [<unknown>][b251f5d0][ExtensionHostConnection] <299145> Launched Extension Host Process.
+[14:46:56] [<unknown>][b50a09a6][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[14:46:56] [<unknown>][b251f5d0][ExtensionHostConnection] <299145> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[14:46:56] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[14:46:56] Last EH closed, waiting before shutting down
+[14:46:59] [<unknown>][233f2665][ManagementConnection] New connection established.
+[14:46:59] [<unknown>][ed5c0fd3][ExtensionHostConnection] New connection established.
+[14:46:59] [<unknown>][ed5c0fd3][ExtensionHostConnection] <299308> Launched Extension Host Process.
