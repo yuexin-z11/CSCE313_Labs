@@ -1,0 +1,39 @@
+2024-09-20 19:37:46.707 [info] 
+
+
+
+
+2024-09-20 19:37:46.725 [info] Extension host agent started.
+2024-09-20 19:37:46.867 [info] [<unknown>][a0b36fe2][ExtensionHostConnection] New connection established.
+2024-09-20 19:37:46.868 [info] [<unknown>][3355df24][ManagementConnection] New connection established.
+2024-09-20 19:37:46.975 [info] [<unknown>][a0b36fe2][ExtensionHostConnection] <335171> Launched Extension Host Process.
+2024-09-20 19:42:46.728 [info] New EH opened, aborting shutdown
+2024-09-20 20:37:03.997 [info] [<unknown>][3355df24][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-20 20:37:04.110 [info] [<unknown>][a0b36fe2][ExtensionHostConnection] <335171> Extension Host Process exited with code: 0, signal: null.
+2024-09-20 20:37:04.111 [info] Last EH closed, waiting before shutting down
+2024-09-20 20:37:07.343 [info] [<unknown>][9f0d333c][ExtensionHostConnection] New connection established.
+2024-09-20 20:37:07.352 [info] [<unknown>][9f0d333c][ExtensionHostConnection] <335582> Launched Extension Host Process.
+2024-09-20 20:37:07.369 [info] [<unknown>][4501d1e9][ManagementConnection] New connection established.
+2024-09-20 20:37:09.557 [error] CodeExpectedError: Could not find pty on pty host
+    at L.U (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:54:31232)
+    at L.updateTitle (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26432)
+    at I.A.<computed> (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21704)
+    at Object.call (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5378)
+    at l.s (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5507)
+    at l.q (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4948)
+    at b.value (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4248)
+    at n.B (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.be (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11119)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-09-20 20:42:04.113 [info] New EH opened, aborting shutdown
+2024-09-20 20:42:04.115 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/teresayuexinzhang/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/server/node/server.main.js:198:6390)
+    at process.emit (node:events:531:35)
+2024-09-20 20:58:41.724 [info] [<unknown>][4501d1e9][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-09-20 23:58:22.914 [info] [<unknown>][9f0d333c][ExtensionHostConnection] <335582> Extension Host Process exited with code: 0, signal: null.
+2024-09-20 23:58:22.917 [info] Last EH closed, waiting before shutting down
+2024-09-20 23:58:49.621 [info] [<unknown>][4501d1e9][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+2024-09-21 00:03:22.917 [info] Last EH closed, shutting down

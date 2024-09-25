@@ -234,3 +234,104 @@ unzip CSCE313_PA1.zip
 ls
 rm CSCE_313_PA1.zip
 rm CSCE313_PA1.zip
+git status
+git add --all
+git commit -m "add the new pa assignment"
+git push
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make\
+make
+./client
+make
+make
+make
+make clean
+make
+clr
+clear
+make
+make
+./client
+make
+make
+make
+make
+make
+make
+make
+make
+./server
+make
+make
+./server
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make clear
+make
+make
+make test
+make clear
+make test
+./client
+./server
+./client
+make test
+make test
+make test
+make test
+make test
+make 
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+makw
+make cleN
+make clean
+make
+./client -f 11.csv -m 512; diff BIMDC/11.csv received/11.csv
+sudo sysctl vm.mmap_rnd_bits=28
+./client -f 11.csv -m 512; diff BIMDC/11.csv received/11.csv
+./pa1-tests.sh 
+make test
+make test
+make test
+./client -f 8.csv
+./client -c -p 12 -t 0.016 -e 1
+make test
