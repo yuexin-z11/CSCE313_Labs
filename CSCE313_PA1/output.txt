@@ -1,0 +1,4 @@
+The length of testfile_100MB.bin is 104857600
+Time taken to transfer testfile_100MB.bin: 17084 ms
+Client-side is done and exited
+Server terminated
