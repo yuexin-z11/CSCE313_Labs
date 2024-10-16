@@ -1,4 +1,0 @@
-date +%s
-sleep 10 &
-date +%s
-exit

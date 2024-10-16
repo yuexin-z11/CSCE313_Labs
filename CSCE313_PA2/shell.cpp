@@ -54,6 +54,13 @@ using namespace std;
  * 
  * Prompt format is: `{MMM DD hh:mm:ss} {user}:{current_working_directory}$`
  */
+
+void function_wait(int signo) {
+    (void)signo;  // avoid warnings
+    while (waitpid(-1, nullptr, WNOHANG) > 0) {
+    }
+}
+
 void print_prompt() {
     // Use time() to obtain the current system time, and localtime() to parse the raw time data
     time_t cur_time = time(0);
@@ -91,7 +98,9 @@ void process_commands(Tokenizer& tknr) {
     int forwards_fds[2] = {-1, -1};
 
     // LOOP THROUGH COMMANDS FROM SHELL INPUT
-    for (auto cmd:tknr.commands) {
+    for (size_t i = 0; i < tknr.commands.size(); i++) {
+        auto cmd = tknr.commands[i];
+
         // Check if the command is 'cd' first
         // This will not have any pipe logic and needs to be done manually since 'cd' is not an executable command
         // Use getenv(), setenv(), and chdir() here to implement this command
@@ -118,8 +127,9 @@ void process_commands(Tokenizer& tknr) {
         // read is 0 and write is 1
         // backwards_fds = forwards_fds;
         // If any other command, set up forward pipe IF the current command is not the last command to be executed
-        if (tknr.commands.size() > 1) {
-            if (pipe(forwards_fds)){
+        // handle piped between commands
+        if (i < tknr.commands.size() -1 ) {
+            if (pipe(forwards_fds) < 0){
                 perror("pipe failed");
                 exit(1);
             }
@@ -133,12 +143,12 @@ void process_commands(Tokenizer& tknr) {
             exit(2);
         }
         if (pid == 0) {  // if child, exec to run command
-            if (tknr.commands.size() > 1) {  // i.e. {current command} | {next command} ...
+            if (i < tknr.commands.size() - 1) {  // i.e. {current command} | {next command} ...
                 dup2(forwards_fds[1], STDOUT_FILENO);     // Reidrect STDOUT to forward pipe
                 close(forwards_fds[1]);    // Close respective pipe end
             }
 
-            if (backwards_fds[0] != -1) {    // i.e. {first command} | {current command} ...
+            if (i > 0) {    // i.e. {first command} | {current command} ...
                 dup2(backwards_fds[0], STDIN_FILENO);     // Redirect STDIN to backward pipe
                 close(backwards_fds[0]);    // Close respective pipe end
             }
@@ -170,10 +180,9 @@ void process_commands(Tokenizer& tknr) {
             }
             args.push_back(nullptr);
 
-            if (execvp(args[0], args.data()) < 0) {  // error check
-                perror("execvp");
-                exit(2);
-            }
+            execvp(args[0], args.data());
+            perror("execvp failed");
+            exit(2);
         }
         else {  // if parent, wait for child to finish    
             // Close pipes from parent so pipes receive `EOF`
@@ -186,16 +195,19 @@ void process_commands(Tokenizer& tknr) {
                 close(backwards_fds[0]);
             }
 
-            backwards_fds[0] = forwards_fds[0];
-            backwards_fds[1] = forwards_fds[1];
+            if (i < tknr.commands.size() - 1) {
+                close(forwards_fds[1]); 
+                backwards_fds[0] = forwards_fds[0]; 
+                backwards_fds[1] = -1; 
+            }
 
             // If command is indicated as a background process, set up to ignore child signal to prevent zombie processes
             if (cmd->args.back() == "&") {
                 cmd->args.pop_back();
-                signal(SIGCHLD, SIG_IGN);
+                signal(SIGCHLD, function_wait);
             }
             else {
-                int status = 0;
+                int status;
                 waitpid(pid, &status, 0);
                 
                 if (status > 1) {  // exit if child didn't exec properly
