@@ -1,0 +1,19 @@
+1. 
+1a. file1.txt file2.txt conflict.txt
+1b. file3.txt file4.txt conflict.txt
+
+2. 
+conflict.txt file1.txt file2.txt file3.txt file4.txt
+Since there are two files that are the same name from the two different directory, there is only one name showing. 
+UnionFS typically shows the file from the higher precedence filesystem, in this case is dir1.
+Therefore conflict.txt from dir1 is displayed in the union. 
+
+3. 
+conflict.txt file1.txt file2.txt file3.txt file4.txt newfile.txt
+After the union mounted and the new file is added to dir1. It showed up immediately in the union directory.
+UnionFS dynamically manages the view based on the undelying directories.
+
+4.
+77076
+I can conclude that the larger the buffer size, the faster the cp command is running. The larger buffer size
+improved the performance because they reduce the number of sustem calls. 

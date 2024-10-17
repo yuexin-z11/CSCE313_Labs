@@ -1,0 +1,38 @@
+You can start the playlist with the links below. Each codelab provides
+23 , 45,56, 98 step-by-step instructions to guide you through the
+A123-45-6789 lesson. <a href="foo">foo</a> Once you finish a codelab,
+you can move on to the next one in the list. Start with the first
+codelab, "Fundamentals of Apps Script with Google Sheets #1: Macros &
+Custom Functions".
+
+1. prov.*
+matches word that will contain "prov" with no line breaks and follow 0 or more proceding token
+"provides"
+
+2. ^\w\d+
+matches the beginning of the string with 1 or more preceding word character or digits
+none 
+
+3. <a\s*\w+=.*>
+matches "<a" and white space and any word character, "=", no line breaks, and ">"
+"<a href="foo">foo</a>"
+
+4. [123]+
+select any character "1" or "2" or "3" and have 1 or more preceding token 
+"23", "123", "1"
+
+5. [,]\W{2}
+match "," character following 2 or more preceding tokens that is not a word character
+",=""
+
+6. ^[\d-]+
+match the beginning of the string with 1 or more preceding any chracter in the set which is any digit character and "-" 
+none
+
+7. \w+,$
+match any word character with 1 or more preceding token and match "," character thatt will match the end of the string
+none 
+
+8. li\w*
+match "li" with any 0 or more preciding token that is a word character
+"list", "links", "list"

@@ -1,0 +1,19 @@
+1. 
+ssh -R 80:localhost:8080 teresayuexinzhang@34.170.145.244
+
+2. 
+The reverse tunneling creates a path from the laptop to VM. 
+The laptop sets up a SSH connection to the VM. -R will create a lisnter on the VM's port 80.
+From there, all the incoming requests to the VM's port 80 are forwarded through the SSH connection
+to the laptop's port 8080.
+The server running on the laptop will then respond to the requests and send the repsponses back
+to the VM and then to the client. 
+
+3.
+It is because of the reverse tunnel that was established. The ssh client instructs the VM to listen 
+for connections on port 80. When a request comes to port 80 on the VM, will then be forwarded to 
+port 8080 on the laptop through the SSH tunnel. 
+
+4.
+
+5. 
